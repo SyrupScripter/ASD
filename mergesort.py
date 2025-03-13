@@ -5,7 +5,7 @@ def merge(a:list, b:list):
     c = []
 
     p=q=0
-    while(a and b and p<len(a) and q<len(b)):
+    while(a and b and p<len(a) and q<len(b)): #check, zeby nie wyjsc poza liste
         #print(a[p], b[q], p, q)
         if(a[p] <= b[q]):
             c.append(a[p])
@@ -16,7 +16,7 @@ def merge(a:list, b:list):
             q+=1
     #print(p, len(a), q, len(b), a, b)
     
-    while(a and p<len(a)):
+    while(a and p<len(a)):        #dopisanie reszty
         c.append(a[p])
         p+=1
     while(b and q<len(b)):
@@ -25,7 +25,7 @@ def merge(a:list, b:list):
     
     return c
 
-def mergesort(a):
+def mergesort(a):        #rekurencyjny podzial na mniejsze części
     if(len(a)==1):
         return a
     
