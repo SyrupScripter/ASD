@@ -1,9 +1,3 @@
-Sortowania omawiane podczas wykładów z przedmiotu 'Algorytmów i struktur danych', takie jak:
+Zagadnienia przerobione w kursie "Algorytmy i Stuktury Danych" na AGH w roku 2025.
 
-- mergesort
-- heapsort
-- quicksort (lomuto)
-- bucketsort
-- countingsort
-
-dodatkowo: quickselect
+dodatkowo rozwiązania egzaminów z poprzednich lat ^^
