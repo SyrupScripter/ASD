@@ -6,4 +6,4 @@ Sortowania omawiane podczas wykładów z przedmiotu 'Algorytmów i struktur dany
     bucketsort
     countingsort
 
-dodatkowo: quickselect
+dodatkowo: quickselect, binary search
